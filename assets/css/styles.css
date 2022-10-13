@@ -7,7 +7,7 @@
 
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color: 210; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  --hue-color: 210; /*Purple 250 - Green 142 - Blue 230 - Pink 340 - blue 210*/
 
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -93,6 +93,10 @@ body.dark-theme {
 
 .change-theme:hover {
   color: var(--first-color);
+}
+
+.nav__btns:hover {
+  visibility: visible;
 }
 /*==================== BASE ====================*/
 * {
@@ -500,15 +504,43 @@ img {
 }
 
 .skills__python {
-  width: 70%;
+  width: 78%;
 }
 
 .skills__pytest {
-  width: 70%;
+  width: 80%;
 }
 
 .skills__mysql {
+  width: 60%;
+}
+
+.skills__git {
+  width: 90%;
+}
+
+.skills__jira {
+  width: 85%;
+}
+
+.skills__vscode {
+  width: 95%;
+}
+
+.skills__alm {
+  width: 90%;
+}
+
+.skills__aws {
   width: 70%;
+}
+
+.skills__java {
+  width: 95%;
+}
+
+.skills__ml {
+  width: 40%;
 }
 
 .skills__close .skills__list {
