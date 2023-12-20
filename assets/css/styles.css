@@ -696,6 +696,7 @@ img {
   row-gap: 3rem;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .contact__information {
   display: flex;
@@ -729,7 +730,7 @@ img {
   color: var(--title-color);
 }
 
-.contact__input {
+/* .contact__input {
   width: 100%;
   background-color: var(--input-color);
   color: var(--text-color);
@@ -738,7 +739,7 @@ img {
   border: none;
   outline: none;
   padding: 0.25rem 0.5rem 0.5rem 0;
-}
+} */
 
 /*==================== FOOTER ====================*/
 .footer {
