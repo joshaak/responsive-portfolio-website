@@ -694,6 +694,7 @@ img {
 /*==================== CONTACT ME ====================*/
 .contact__container {
   row-gap: 3rem;
+  justify: center;
 }
 .contact__information {
   display: flex;
